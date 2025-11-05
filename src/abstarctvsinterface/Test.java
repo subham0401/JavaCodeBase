@@ -1,9 +1,7 @@
 package abstarctvsinterface;
 
-
 abstract class subham{
     public abstract void  dance();
-
 
     public int add(int a , int b){
         return a+b;
@@ -50,9 +48,7 @@ abstract class Test4{
     }
 }
 
-
-
- class RunTest extends Test4{
+class RunTest extends Test4{
      public RunTest(int a, int b) {
          super(a, b);
      }
